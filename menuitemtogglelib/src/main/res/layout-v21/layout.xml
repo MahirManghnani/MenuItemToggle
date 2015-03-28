@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/menuItemSize"
+    android:layout_height="@dimen/toolbarHeight" >
+
+    <View
+        android:id="@+id/button_view"
+        android:layout_width="@dimen/menuItemSize"
+        android:layout_height="@dimen/menuItemSize"
+        android:layout_centerInParent="true"
+        android:background="?android:attr/selectableItemBackgroundBorderless" />
+
+    <ImageView
+        android:id="@+id/icon_1"
+        android:layout_width="@dimen/menuItemImageSize"
+        android:layout_height="@dimen/menuItemImageSize"
+        android:scaleType="center"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/icon_2"
+        android:layout_width="@dimen/menuItemImageSize"
+        android:layout_height="@dimen/menuItemImageSize"
+        android:scaleType="center"
+        android:alpha="0"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

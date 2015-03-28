@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toolbarHeight">56dp</dimen>
+    <dimen name="menuItemSize">48dp</dimen>
+    <dimen name="menuItemImageSize">32dp</dimen>
+</resources>
